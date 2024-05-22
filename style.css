@@ -1,0 +1,102 @@
+body {
+    width: 100vw;
+    height: 100vh;
+    background-image: linear-gradient(140deg, #EADEDB 0%, #BC70A4 50%, #6fd2da 75%);
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+}
+.main-box{
+    border: 1px solid white;
+    width: 80vw;
+    min-height: 50vh;
+    margin-left: 5px;
+    margin-right: 5px;
+    /* From https://css.glass */
+    background: rgba(255, 255, 255, 0.31);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(1.3px);
+    -webkit-backdrop-filter: blur(1.3px);
+    border: 1px solid rgba(255, 255, 255, 0.4);
+    padding-left: 20px;
+    padding-right: 20px;
+    /* position: absolute; */
+    /* transform: translatex(50%); */
+    
+}
+.head{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 48px;
+}
+
+input{
+    background: rgba(255, 255, 255, 0.31);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(1.3px);
+    -webkit-backdrop-filter: blur(1.3px);
+    border: 1px solid rgba(255, 255, 255, 0.4);
+    border: none;
+    border-radius: 10px;
+    width: 60%;
+    
+}
+.result{
+    position: relative;
+    /* overflow: ; */
+}
+.wordv{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.icon{
+    background: rgba(255, 255, 255, 0.31);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(1.3px);
+    -webkit-backdrop-filter: blur(1.3px);
+    border: 1px solid rgba(255, 255, 255, 0.4);
+}
+.board{
+    width: 100vw;
+    height: 10vh;
+    background: rgba(255, 255, 255, 0.31);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(1.3px);
+    -webkit-backdrop-filter: blur(1.3px);
+    border: 1px solid rgba(255, 255, 255, 0.4);
+    text-align: center;
+}
+.about{
+    width: 100vw;
+    height: 10vh;
+}
+.example{
+    padding-left: 5px;
+    color: rgb(253, 231, 234);
+    margin-left: 10px;
+    min-height: 30px;
+    border-left: 3px solid #6fd2da;
+}
+.examples{
+    background: rgba(255, 255, 255, 0);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(0.7px);
+    -webkit-backdrop-filter: blur(1.3px);
+    border: 1px solid rgba(255, 255, 255, 0.4);
+    
+}
+.defin{
+    color: rgb(253, 231, 234);
+    background: rgba(255, 255, 255, 0);
+    border-radius: 10px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(0.7px);
+    -webkit-backdrop-filter: blur(1.3px);
+    border: 1px solid rgba(255, 255, 255, 0.4);
+}
