@@ -3,9 +3,7 @@ body {
     height: 100vh;
     background-image: linear-gradient(140deg, #EADEDB 0%, #BC70A4 50%, #6fd2da 75%);
     background-attachment: fixed;
-    /* display: flex;
-    justify-content: center;
-    align-items: center; */
+   
 }
 .main-box{
     border: 1px solid white;
@@ -13,7 +11,7 @@ body {
     min-height: 50vh;
     margin-left: 5px;
     margin-right: 5px;
-    /* From https://css.glass */
+   
     background: rgba(255, 255, 255, 0.31);
     border-radius: 16px;
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
@@ -22,8 +20,7 @@ body {
     border: 1px solid rgba(255, 255, 255, 0.4);
     padding-left: 20px;
     padding-right: 20px;
-    /* position: absolute; */
-    /* transform: translatex(50%); */
+    
     
 }
 .head{
@@ -46,7 +43,7 @@ input{
 }
 .result{
     position: relative;
-    /* overflow: ; */
+    
 }
 .wordv{
     margin-top: 20px;
@@ -94,7 +91,7 @@ input{
     border: 1px solid rgba(255, 255, 255, 0.4);
     max-height: 400px;
     min-height: 150px;
-    /* overflow:scroll; */
+  
 }
 .defin{
     color: rgb(0, 0, 0);
@@ -106,7 +103,7 @@ input{
     border: 1px solid rgba(255, 255, 255, 0.4);
     max-height: 400px;
     min-height: 50px;
-    /* overflow:scroll; */
+   
     
 }
 #examplesM{
